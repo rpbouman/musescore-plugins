@@ -268,9 +268,7 @@ function msg(m, cursor, msgs){
 //TODO:
 // - check for indirect melodic tritone:
 //   "The tritone is to be avoided even when reached stepwise if the line is not continued stepwise in the same direction."
-// - check for "uncompensated skips"
-//   sixth (only occurs as minor ascending) and octave should be followed by an interval in opposite direction.
-// - 10th dissolving by contrary motion of a step into an octave (h)
+// - 10th dissolving by contrary motion of a step into an octave (battuta, page 37)
 function check1stSpeciesCounterPoint(cfCursor, cpCursor) {
   var score = getScore();
   var m, msgs = [];
