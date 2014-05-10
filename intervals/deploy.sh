@@ -1,0 +1,1 @@
+cp plugin/*  ~/.local/share/data/MusE/MuseScore/plugins
